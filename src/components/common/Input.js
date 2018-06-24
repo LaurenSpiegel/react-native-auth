@@ -15,7 +15,7 @@ const Input = ({ label, value, onChangeText, placeholder, isSecure }) => {
                 onChangeText={onChangeText}
                 style={ inputStyle }
                 autoCorrect={false}
-                autoCapitalize={false}
+                autoCapitalize={'none'}
                 placeholder={placeholder}
                 secureTextEntry={isSecure}
             />
